@@ -1,0 +1,82 @@
+
+
+.filledButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+}
+
+.image{
+    position: absolute;
+    margin-left: 120px;
+}
+
+.mainCont{
+    /*display: inline-block;*/
+    justify-content: center;
+    gap: 100px;
+    background: #F5F7FA;
+;
+}
+.companyName span{
+    font-weight: bold;
+    font-size: 25px;
+    /*gap: 10px;*/
+}
+
+.indexContext{
+    /*display: inline-block;*/
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background: #263238;
+    color: aliceblue;
+
+
+}
+
+.indexContentSecond{
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    /*gap: 60px;*/
+}
+
+.indexContext> div{
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.indexMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+
+.indexContentFirst {
+    display: flex;
+    gap: 40px;
+    /*flex-direction: row;*/
+}
+
+.indexContFirst span , .indexContSecond span, .email span{
+    font-weight: bold;
+}
+.email .address{
+    background: rgba(0, 0, 0, 0.84);
+    opacity:30%;
+    border-radius: 5px;
+    border-bottom-style: none;
+
+}
+
+.clients{
+
+}

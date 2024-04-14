@@ -1,0 +1,60 @@
+
+
+.frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.frameText{
+    display: block;
+    width: 400px;
+    color: #4D4D4D;
+    font-size: 15px;
+}
+
+.achievements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F5F7FA;
+}
+
+.sectionHeading{
+    /*width: 1px;*/
+    /*width: 2px;*/
+    color: #4D4D4D;
+
+}
+
+.sectionHeading span{
+    display: block;
+    color: green;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row1, .row2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row11, .row12, .row21, .row22{
+    display: flex;
+    flex-direction: row;
+}
+
+.row1 h3, .row2 h3, .row2 h4, .row2 h4{
+    color: #4D4D4D;
+}
